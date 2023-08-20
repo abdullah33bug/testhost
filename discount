@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Prompt</title>
+</head>
+<body>
+    <h1>Enter Your Password</h1>
+    <form>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <i>"Enter your insecureshop account password to get free $200 coupon code."</i>		
+    <b>This offer is valid till next 10 minutes!!</b>
+</body>
+</html>
