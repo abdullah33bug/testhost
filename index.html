@@ -3,9 +3,17 @@
   <h1>You have been hacked</h1>
   <h1>This is a malicious page</h1>
   <script>
-    prompt("Enter Allegro Email Address");
-      
-    prompt("Enter Allegro Password");
+  <button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  let person = prompt("Please enter your name", "Harry Potter");
+  if (person != null) {
+    document.getElementById("demo").innerHTML =
+    "Hello " + person + "! How are you today?";
+  }
   </script>
   
 </body>
